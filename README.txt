@@ -9,14 +9,14 @@ The following regular expressions are accessed:
 3b) The set of all strings that contain "bac" as a substring
 3c) The set of all strings that contain "ccc" as a substring
 
-4) A DFA defined with the following table, -> Indicating start state, * Indicating final states
+4) A DFSA defined with the following table, -> Indicating start state, * Indicating final states
  ______________________
 |______|___|__0__|__1__|
 |__->*_|_A_|__B__|__C__|
 |____*_|_B_|__C__|__A__|
 |______|_C_|__C__|__C__|
 
-5) A DFA defined with the following table, -> Indicating start state, * Indicating final states
+5) A NDFSA defined with the following table, -> Indicating start state, * Indicating final states
  ______________________
 |______|___|__0__|__1__|
 |__->__|_A_|{B,D}|_{B}_|
